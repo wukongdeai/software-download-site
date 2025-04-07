@@ -1,29 +1,29 @@
 {
-  "name": "software-download-site",
-  "version": "0.1.0",
+  "name": "aihub-frontend",
   "private": true,
+  "version": "0.1.0",
+  "type": "module",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.3.4",
-    "vue-router": "^4.2.4",
-    "pinia": "^2.1.6",
-    "element-plus": "^2.3.9",
-    "axios": "^1.4.0",
-    "@element-plus/icons-vue": "^2.1.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0",
+    "axios": "^1.5.0",
+    "@heroicons/react": "^2.0.18",
+    "react-query": "^3.39.3",
+    "zustand": "^4.4.1",
+    "tailwindcss": "^3.3.3",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~5.0.8",
-    "@vue/cli-plugin-eslint": "~5.0.8",
-    "@vue/cli-plugin-router": "~5.0.8",
-    "@vue/cli-service": "~5.0.8",
-    "@vue/compiler-sfc": "^3.3.4",
-    "eslint": "^8.46.0",
-    "eslint-plugin-vue": "^9.16.1",
-    "sass": "^1.66.1",
-    "sass-loader": "^13.3.2"
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.4",
+    "vite": "^4.4.9"
   }
 } 
